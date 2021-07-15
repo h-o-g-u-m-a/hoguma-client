@@ -1,6 +1,6 @@
 import React from 'react';
-
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
+
 import Home from './pages/Home';
 import About from './pages/Intro';
 import TestMain from './pages/Test/TestMain';
@@ -16,6 +16,7 @@ import GameResult from './pages/Game/GameResult';
 import GameAll from './pages/Game/GameAll';
 import Characters from './pages/Characters';
 import Navbar from './components/Navbar';
+
 import './App.css';
 
 function App() {
